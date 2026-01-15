@@ -13,8 +13,8 @@ spec:
       labels:
         app: web-app
     spec:
-      containeres:
+      containers:
       - name: nginx
-        image: nginx:lateste
+        image: nginx:latest
         ports:
         - containerPort: 80
