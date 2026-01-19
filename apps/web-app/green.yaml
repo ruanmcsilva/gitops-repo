@@ -1,0 +1,11 @@
+apiVersion: apps/vi
+kind: Deployment
+metadata:
+  name: web-app-green
+  namespace: dev
+spec:
+  replicas: 2
+  selector:
+   matchLabels:
+      app: web
+      version: green
